@@ -1,7 +1,5 @@
 .idea
 *.docx
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 untitled/
 *.iml
+out/
