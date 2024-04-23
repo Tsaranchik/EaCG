@@ -61,7 +61,6 @@ public class Main {
         frame.add(nextButton, BorderLayout.EAST);
         frame.add(prevButton, BorderLayout.WEST);
 
-        frame.pack();
         frame.setVisible(true);
     }
 }
