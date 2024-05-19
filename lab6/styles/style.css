@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sprite-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sprite0 {
+    background-image: url('./images/crystal0.png');
+    background-position: 0 0;
+    width: 128px;
+    height: 64px;
+    margin: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#sprite1 {
+    background-image: url('./images/fire0.png');
+    background-position: 0px 0px;
+    width: 128px;
+    height: 64px;
+    margin: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
